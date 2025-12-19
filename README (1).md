@@ -7,13 +7,7 @@ All problems are implemented using standard C++ with clear logic and readable st
 
 ---
 
-## 📂 Repository Structure
-```
-├── Program-1.cpp
-├── Program-2.cpp
-├── Program-3.cpp
-├── Program-4.cpp
-└── README.md
+
 ```
 
 ---
@@ -75,5 +69,3 @@ a = 6
 
 ---
 
-## 🔗 Submission
-Google Form: https://forms.gle/Mdi6F7hnwbPsEK1h6
