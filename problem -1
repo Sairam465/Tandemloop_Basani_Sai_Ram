@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+class Calculator {
+public:
+    double calculate(double a, double b, const string& operation) {
+        if (operation == "add") return a + b;
+        if (operation == "subtract") return a - b;
+        if (operation == "multiply") return a * b;
+        if (operation == "divide") {
+            if (b == 0) {
+                cout << "Division by zero not allowed\n";
+                return 0;
+            }
+            return a / b;
+        }
+        cout << "Invalid operation\n";
+        return 0;
+    }
+};
+
+int main() {
+    double a, b;
+    string operation;
+
+    cin >> a >> b >> operation;
+
+    Calculator calc;
+    cout << calc.calculate(a, b, operation);
+
+    return 0;
+}
